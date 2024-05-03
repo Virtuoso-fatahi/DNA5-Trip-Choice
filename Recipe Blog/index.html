@@ -1,51 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <meta name="author" content="Fatahi, Timothy, Chiamaka">
-          <meta name="description" content="Recipe Blog for Food Lovers">
-          <meta name="keywords" content="traditional food, recipe, breakfast, lunch, dinner, delicious">
-          <title>Recipe Blog</title>
-          <link rel="icon" type="images/icon"  href="assets/others/food_icon_icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fatahi, Timothy, Chiamaka">
+    <meta name="description" content="Recipe Blog for Food Lovers">
+    <meta name="keywords" content="traditional food, recipe, breakfast, lunch, dinner, delicious">
+    <title>Recipe Blog</title>
+    <link rel="icon" type="image/png" href="assets/others/food_icon_icon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 50px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        article {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-          <!-- The Header -->
-          <header>
-                    <h1><a href="home">RECIPE BLOG</a></h1>
-                    <nav>
-                        <ul>
-                                <li><a href="#breakfast">Breakfast</a></li>
-                                <li><a href="#lunch">Lunch</a></li>
-                                <li><a href="#dinner">Dinner</a></li>
-                                <li><a href="#about">About</a></li>
-                        </ul>
-                    </nav>
-          </header>
+    <!-- The Header -->
+    <header>
+        <h1><a href="home">RECIPE BLOG</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#breakfast">Breakfast</a></li>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#dinner">Dinner</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-          <!-- The Main Section -->
-          <main>
-                    <section id="breakfast">
-                              <article>
-                                        <h2>Breakfast</h2>
-                              </article>
-                    </section>
-                    <section id="lunch">
-                              <article>
-                                        <h2>Lunch</h2>
-                              </article>
-                    </section>
-                    <section id="dinner">
-                              <article>
-                                        <h2>Dinner</h2>
-                              </article>
-                    </section>
+    <!-- The Main Section -->
+    <main>
+        <section id="breakfast">
+            <article>
+                <h2>Breakfast</h2>
+                <!-- You can add breakfast recipes here -->
+            </article>
+        </section>
+        <section id="lunch">
+            <article>
+                <h2>Lunch</h2>
+                <!-- You can add lunch recipes here -->
+            </article>
+        </section>
+        <section id="dinner">
+            <article>
+                <h2>Dinner</h2>
+                <!-- You can add dinner recipes here -->
+            </article>
+        </section>
+    </main>
 
-          </main>
-
-          <!-- The Footer Section -->
-          <footer>
-                  Copyright &copy;2024, Recipe Blog.
-          </footer>
+    <!-- The Footer Section -->
+    <footer>
+        Copyright &copy;2024, Recipe Blog.
+    </footer>
 </body>
 </html>
