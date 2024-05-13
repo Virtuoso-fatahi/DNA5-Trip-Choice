@@ -1,0 +1,91 @@
+/* || General Style */
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+}
+
+/* || General Navbar */
+header {
+          margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main_nav ul {
+  display: flex;
+}
+
+.main_nav_list li {
+  margin: 0 60px 0 0;
+}
+
+.main_nav ul .sub_nav_list {
+  display: block;
+}
+
+/* || Discovery Section */
+.discovery_section .discovery_nav div {
+  margin: 0 auto;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+  padding: 10px 0;
+}
+
+.discovery_section .discovery_nav a {
+  margin: 0 20px 0 0;
+  display: inline-block;
+}
+
+.discovery_theme {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          text-align: center;
+          padding: 20px;
+}
+
+.discovery_theme h2 {
+         margin-bottom: 15px;
+          font-size: 48px;
+}
+
+.discovery_carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.discovery_carousel article {
+  max-width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 25px;
+  border: 1px solid;
+  padding: 15px;
+}
+
+.discovery_carousel article span {
+          margin-right: 15px;
+}
+
+.discovery_carousel article h3, .discovery_carousel article p, .discovery_carousel article a {
+          line-height: 1;
+          margin: 5px 0;
+}
