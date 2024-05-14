@@ -118,7 +118,7 @@ header .button1{
     margin-top: 5px;
     height: 35px;
     padding: 0 30px 0 30px;
-    border: 0;
+    border-radius: 20px;
 }
 
 /* Showcase */
@@ -142,14 +142,17 @@ header .button1{
 }
 
 #showcase input[type="search"]{
+    border-radius: 20px;
     font-size: 15px;
     height: 50px;
-    padding: 10px;
+    padding: 20px;
     width: 550px;
+    border-style: none;
 }
 
 #showcase form .button2{
     background-color: rgb(26, 211, 26);
+    border-radius: 30px;
     height: 50px;
     padding: 0 40px 0 40px;
     color: #ffff;
@@ -193,6 +196,7 @@ header .button1{
     color: #ffff;
     font-size: 15px;
     border: 0;
+    border-radius: 30px;
     height: 50px;
     padding: 0 30px 0 30px;
 }
@@ -336,19 +340,29 @@ header .button1{
     text-decoration: none;
 }
 
+.sub-nav a:hover{
+    text-decoration: underline;
+}
+
 .sub-nav form{
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .sub-nav input[type="search"]{
+    border-radius: 20px;
+    border-color: #d4d4d4;
+    border-width: 1px;
+    border-style: solid;
     font-size: 15px;
     height: 50px;
-    padding: 10px;
+    padding: 20px;
     width: 550px;
 }
 
 .sub-nav form .button2{
     background-color: rgb(26, 211, 26);
+    border-radius: 30px;
     height: 50px;
     padding: 0 40px 0 40px;
     color: #ffff;
@@ -356,17 +370,28 @@ header .button1{
     font-size: 15px;
 }
 
-.discovery_section .discovery_nav div {
-    margin: 0 auto;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
-    padding: 10px 0;
-  }
-  
-  .discovery_section .discovery_nav a {
-    margin: 0 20px 0 0;
-    display: inline-block;
-  }
+.dsection{
+    min-height: 470px;
+    max-width: 1200px;
+    margin-left: 160px;
+    background: url('../assets/images/1.jpg') no-repeat 0 -1000px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffff;
+    border-radius: 20px;
+}
+
+.dsection h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.dsection p{
+    font-size: 20px;
+}
   
   .discovery_theme {
             display: flex;
