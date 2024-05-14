@@ -4,28 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
-    <link rel="stylesheet" href="assets/others/styles.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
      <!-- The Header -->
      <header>
-        <h1><a href="index.html">TripChoice</a></h1>
-        <nav class="main_nav">
-            <ul class="main_nav_list">
-                <li><a href="discover.html">Discover</a></li>
-                <li>
-                  <a href="trips.html">Trips</a>
-                  <ul class="sub_nav_list">
-                    <li><a href="restaurants.html">Restaurants</a></li>
-                    <li><a href="hotels.html">Hotels</a></li>
-                </div>
+      <!-- Logo -->
+      <div class="container">
+        <div id="branding">
+          <a href="index.html" class="logo">TripChoice</a>
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar">
+          <ul>
+            <li><a href="discover.html">Discover</a></li>
+             <div class="dropdown">
+              <li><a href="#" class="dropbtn">Trips</a></li>
+              <div class="dropdown-content">
+                  <li><a href="restaurants.html">Restaurants</a></li>
+                  <li><a href="hotels.html">Hotels</a></li>
               </div>
-                <li><a href="review.html">Review</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+            </div>
+              <li><a href="review.html">Review</a></li>
+              <li><a href="about.html">About</a></li>
+          </ul>
         </nav>
-        <button onclick="location.href='signin.html'">Sign In</button>
+
+        <button onclick="location.href='signin.html'" class="button1">Sign In</button>
+      </div>
     </header>
+
+    <!-- The Main Section -->
+    <main>
+          <div class="sub-nav" class="container">
+            <h1>Where to?</h1>
+            <a href="">Hotels</a><a href="">Restaurants</a><a href="">Cruises</a><a href="">Vacations</a><a href="">Events</a>
+          </div>
+
+      <section class="discovery_theme">
+        <h2>Discover Nigeria's Hidden Gems</h2>
+        <p>Welcome to TripChoice Discover! Explore the vibrant cities of Nigeria and uncover hidden gems waiting to be discovered. Whether you're seeking cozy hostels or delightful dining spots, we've curated the best recommendations for you.</p>
+      </section>
+
+      <section class="discovery_carousel">
+
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>Surf House Lagos</h3>
+          <p><span>Hotel</span><span>Victoria Island</span></p>
+          <p>Experience laid-back vibes and budget-friendly accommodations just steps away from the beach. Enjoy surf lessons, yoga sessions, and a lively social atmosphere.</p>
+          <a href="">Read me</a>
+        </article>
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>Nkoyo Restaurant</h3>
+          <p><span>Nigerian, African</span><span>Victoria Island</span></p>
+          <p>Indulge in authentic Nigerian cuisine at Nkoyo Restaurant. From savory soups to flavorful stews, experience a culinary journey through Nigeria's diverse flavors.</p>
+          <a href="">Read me</a>
+        </article>
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>The Shelter Hostel</h3>
+          <p><span>Hotel</span><span>Ikeja</span></p>
+          <p>Nestled in the heart of Ikeja, The Shelter Hostel offers comfortable dormitories and private rooms. Enjoy easy access to local markets, restaurants, and nightlife hotspots.</p>
+          <a href="">Read me</a>
+        </article>
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>Yellow Chilli</h3>
+          <p><span>Nigerian, Fusion</span><span>Ikeja</span></p>
+          <p>Taste the fusion of traditional and contemporary flavors at Yellow Chilli. From spicy suya to rich jollof rice, savor the best of Nigerian cuisine in a vibrant setting.</p>
+          <a href="">Read me</a>
+        </article>
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>Millennium Park Hostel</h3>
+          <p><span>Hotel</span><span>Maitama</span></p>
+          <p>Escape the hustle and bustle of the city at Millennium Park Hostel. Relax in lush green surroundings, explore nearby attractions, and enjoy affordable accommodations.</p>
+          <a href="">Read me</a>
+        </article>
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>Zuma Grill</h3>
+          <p><span>African, Continental</span><span>Maitama</span></p>
+          <p>Experience fine dining at Zuma Grill. Indulge in premium cuts of meat, fresh seafood, and decadent desserts while enjoying panoramic views of Abuja.</p>
+          <a href="">Read me</a>
+        </article>
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>Nomad Hostel Abuja</h3>
+          <p><span>Hotel</span><span>Wuse</span></p>
+          <p>Embrace the nomadic spirit at Nomad Hostel Abuja. Discover cozy common areas, meet fellow travelers, and experience the vibrant culture of Nigeria's capital.</p>
+          <a href="">Read me</a>
+        </article>
+        <article>
+          <img src="" alt="" width="250px" height="100px">
+          <h3>BluCabana Restaurant & Cafe</h3>
+          <p><span>Mediterranean, Continental</span><span>Wuse</span></p>
+          <p>Escape to BluCabana Restaurant & Cafe for a culinary adventure. From Mediterranean-inspired dishes to classic favorites, enjoy a diverse menu in a stylish ambiance.</p>
+          <a href="">Read me</a>
+        </article>
+      </section>
+    </main>
+    <!-- The Footer Section -->
+    <footer>
+      <div class="Copyright">Copyright &copy; 2024, TripChoice.</div>
+  </footer>
+  <!-- End of footer -->
 </body>
 </html>
