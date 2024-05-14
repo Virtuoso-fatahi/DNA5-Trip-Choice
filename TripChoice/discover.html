@@ -4,23 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
+    <link rel="stylesheet" href="assets/others/styles.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
      <!-- The Header -->
-    <header>
-        <!-- Logo -->
-        <div class="container">
-          <div id="branding">
-            <a href="index.html" class="logo">TripChoice</a>
-          </div>
-          <!-- Navbar -->
-          <nav class="navbar">
-            <ul>
-              <li><a href="discover.html">Discover</a></li>
-               <div class="dropdown">
-                <li><a href="#" class="dropbtn">Trips</a></li>
-                <div class="dropdown-content">
+     <header>
+        <h1><a href="index.html">TripChoice</a></h1>
+        <nav class="main_nav">
+            <ul class="main_nav_list">
+                <li><a href="discover.html">Discover</a></li>
+                <li>
+                  <a href="trips.html">Trips</a>
+                  <ul class="sub_nav_list">
                     <li><a href="restaurants.html">Restaurants</a></li>
                     <li><a href="hotels.html">Hotels</a></li>
                 </div>
@@ -28,11 +24,8 @@
                 <li><a href="review.html">Review</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
-          </nav>
-  
-          <button onclick="location.href='signin.html'" class="button1">Sign In</button>
-        </div>
-      </header>
-  
+        </nav>
+        <button onclick="location.href='signin.html'">Sign In</button>
+    </header>
 </body>
 </html>
