@@ -73,25 +73,47 @@ header #branding a{
     font-size: 20px;
     font-weight: bold;
     margin: 0;
-    color: rgb(26, 211, 26);
+    color: rgb(0, 0, 0);
 }
 
-header nav{
+/* header nav{
     margin-left: 350px;
+} */
+
+.navbar{
+    margin-left: 420px;
 }
+
+.navbar a{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar ul .dropdown-content {
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: #ffffff;
+    width: 150px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+  
+.navbar ul .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 header nav a:hover{
     color: rgb(26, 211, 26);
     font-weight: bold;
 }
 
-header li .dropdown-content{
-    
-}
-
 header .button1{
+    font-size: 15px;
     float: right;
-    background-color: rgb(26, 211, 26);
+    background-color: black;
     color: rgb(255, 255, 255);
     margin-top: 5px;
     height: 35px;
@@ -303,10 +325,35 @@ header .button1{
 .sub-nav h1{
     font-weight: bold;
     font-size: 60px;
+    margin-bottom: 25px;
 }
 
 .sub-nav a{
     margin-right: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sub-nav form{
+    margin-top: 30px;
+}
+
+.sub-nav input[type="search"]{
+    font-size: 15px;
+    height: 50px;
+    padding: 10px;
+    width: 550px;
+}
+
+.sub-nav form .button2{
+    background-color: rgb(26, 211, 26);
+    height: 50px;
+    padding: 0 40px 0 40px;
+    color: #ffff;
+    border: 0;
+    font-size: 15px;
 }
 
 .discovery_section .discovery_nav div {
