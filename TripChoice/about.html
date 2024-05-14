@@ -4,58 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     <!-- The Header -->
-     <header>
-        <h1><a href="index.html">TripChoice</a></h1>
-        <nav>
+    <!-- The Header -->
+    <header>
+        <!-- Logo -->
+        <div class="container">
+          <div id="branding">
+            <a href="index.html" class="logo">TripChoice</a>
+          </div>
+          <!-- Navbar -->
+          <nav class="navbar">
             <ul>
-                <li><a href="discover.html">Discover</a></li>
-                <li>
-                  <a href="trips.html">Trips</a>
-                  <ul>
+              <li><a href="discover.html">Discover</a></li>
+               <div class="dropdown">
+                <li><a href="#" class="dropbtn">Trips</a></li>
+                <div class="dropdown-content">
                     <li><a href="restaurants.html">Restaurants</a></li>
                     <li><a href="hotels.html">Hotels</a></li>
-                    <li><a href="holidays.html">Holidays</a></li>
-                    <li><a href="cruise.html">Cruises</a></li>
-                  </ul>
-                </li>
+                </div>
+              </div>
                 <li><a href="review.html">Review</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
-        </nav>
-        <button onclick="location.href='signin.html'">Sign In</button>
-    </header>
+          </nav>
+  
+          <button onclick="location.href='signin.html'" class="button1">Sign In</button>
+        </div>
+      </header>
+  
     <main>
-        <section>
-            <img src="image/path/section.jpg" alt="Section background image">
-            <h2>About Us</h2>
+        <section class="showcase">
+          <div class="container">
+            <h1>About Us</h1>
+          </div>  
         </section>
-        <section>
-            <h3>About TripChoice</h3>
-            <p>Welcome to TripChoice, your ultimate destination for discovering unforgettable travel experiences! At TripChoice, we are passionate about helping you explore the world and create lasting memories. Whether you're planning a relaxing getaway, an adventurous expedition, or a romantic retreat, we've got you covered.</p>
-            <p>Our mission is to provide you with curated travel recommendations, insider tips, and personalized trip planning services to make your journey seamless and enjoyable. With our extensive network of partners and travel experts, we ensure that every aspect of your trip exceeds your expectations.</p>
-            <p>At TripChoice, we believe that travel is more than just visiting new places—it's about immersing yourself in different cultures, connecting with people, and expanding your horizons. Join us on this incredible journey, and let's embark on unforgettable adventures together!</p>
-        </section>        
-        <section>
-            <h3>Our Teams</h3>
-            <div>
-                <img src="image/path/team-member1.jpg" alt="Team Member 1">
+
+        <section id="main">
+          <div class="container">
+            <article id="main-col">
+            <h3 class="title">About TripChoice</h3>
+              <p>Welcome to TripChoice, your ultimate destination for discovering unforgettable travel experiences! At TripChoice, we are passionate about helping you explore the world and create lasting memories. Whether you're planning a relaxing getaway, an adventurous expedition, or a romantic retreat, we've got you covered.</p>
+              <p>Our mission is to provide you with curated travel recommendations, insider tips, and personalized trip planning services to make your journey seamless and enjoyable. With our extensive network of partners and travel experts, we ensure that every aspect of your trip exceeds your expectations.</p>
+              <p>At TripChoice, we believe that travel is more than just visiting new places—it's about immersing yourself in different cultures, connecting with people, and expanding your horizons. Join us on this incredible journey, and let's embark on unforgettable adventures together!</p>
+            </article>
+          </div>
+          </section>
+
+        <section class="boxes1">
+          <div class="container">
+            <h3 class="title">Our Teams</h3>
+            <div class="box">
+                <img src="./assets/images/4.jpeg" alt="Team Member 1" class="team-member">
                 <h4>John Doe</h4>
-                <p>Position: CEO</p>
+                <p>CEO</p>
             </div>
-            <div>
-                <img src="image/path/team-member2.jpg" alt="Team Member 2">
+            <div class="box">
+                <img src="./assets/images/4.jpeg" alt="Team Member 2" class="team-member">
                 <h4>Jane Smith</h4>
-                <p>Position: CTO</p>
+                <p>CTO</p>
             </div>
-            <div>
-                <img src="image/path/team-member3.jpg" alt="Team Member 3">
+            <div class="box">
+                <img src="./assets/images/4.jpeg" alt="Team Member 3" class="team-member">
                 <h4>Alice Johnson</h4>
-                <p>Position: Marketing Manager</p>
+                <p>Marketing Manager</p>
             </div>
+          </div>
         </section>
+
     </main>
+
+      <!-- The Footer Section -->
+      <footer>
+        <div class="Copyright">Copyright &copy; 2024, TripChoice.</div>
+    </footer>
+    <!-- End of footer -->
 </body>
 </html>

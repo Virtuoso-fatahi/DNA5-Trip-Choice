@@ -8,129 +8,110 @@
     <meta name="keywords" content="Travel, Vacation, Outdoor, lunch, dinner, Eatout">
     <title>TripChoice</title>
     <link rel="icon" type="image/png" href="assets/others/food_icon_icon.png">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- The Header -->
     <header>
-        <h1><a href="index.html">TripChoice</a></h1>
-        <nav>
-            <ul>
-                <li><a href="discover.html">Discover</a></li>
-                <li>
-                  <a href="trips.html">Trips</a>
-                  <ul>
-                    <li><a href="restaurants.html">Restaurants</a></li>
-                    <li><a href="hotels.html">Hotels</a></li>
-                    <li><a href="holidays.html">Holidays</a></li>
-                    <li><a href="cruise.html">Cruises</a></li>
-                  </ul>
-                </li>
-                <li><a href="review.html">Review</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+      <!-- Logo -->
+      <div class="container">
+        <div id="branding">
+          <a href="index.html" class="logo">TripChoice</a>
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar">
+          <ul>
+            <li><a href="discover.html">Discover</a></li>
+             <div class="dropdown">
+              <li><a href="#" class="dropbtn">Trips</a></li>
+              <div class="dropdown-content">
+                  <li><a href="restaurants.html">Restaurants</a></li>
+                  <li><a href="hotels.html">Hotels</a></li>
+              </div>
+            </div>
+              <li><a href="review.html">Review</a></li>
+              <li><a href="about.html">About</a></li>
+          </ul>
         </nav>
-        <button onclick="location.href='signin.html'">Sign In</button>
+
+        <button onclick="location.href='signin.html'" class="button1">Sign In</button>
+      </div>
     </header>
 
     <!-- The Main Section -->
     <main>
-      <section>
-        <img src="image/path/section1.jpg" alt="Section background image">
-        <h2>Arrange a trip in minutes</h2>
+      <section id="showcase">
+        <div class="container">
+        <h1>Arrange a trip in minutes</h1>
         <p>Get a personalized itinerary just for you, guided by traveler tips and reviews.</p>
-        <button onclick="location.href='discover.html'">Explore</button>
         <form>
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
+            <input type="search" placeholder="Enter location...">
+            <button type="submit" class="button2">Search</button>
         </form>
+        </div>
       </section>
 
-      <section>
-        <img src="image/path/section2.jpg" alt="Section 2 Image">
+      <section class="section">
+        <div class="container">
+        <img src="./assets/images/2.jpg" alt="Section 2 Image">
         <h2>Discover New Restaurants</h2>
         <p>Explore a variety of cuisines and dining experiences at top-rated restaurants.</p>
         <button onclick="location.href='restaurants.html'">View Restaurants</button>
+        </div>
       </section>
 
       <!-- Adventures section - Chiamaka -->
-      <section>
+      <section class="boxes1">
+        <div class="container">
         <h2>Adventures, Hot Spots, Hidden Gems</h2>
-        <div>
-          <img src="image/path/adventure1.jpg" alt="pic from the party">
-          <div>
-            <p><a href="#">Nexos Lounge</a></p>
+        <p>Explore a variety of cuisines and dining experiences at top-rated restaurants.</p>
+        <div class="box">
+          <img src="./assets/images/3.jpg" alt="pic from the party">
+            <a href="#">Nexos Lounge</a>
             <p>Didi's birthday party</p>
-          </div>
         </div>
 
-        <div>
-          <img src="image/path/adventure2.jpg" alt="pic from the party">
-          <div>
-            <p><a href="#">Nike Lake Resort</a></p>
+        <div class="box">
+          <img src="./assets/images/3.jpg" alt="pic from the party">
+            <a href="#">Nike Lake Resort</a>
             <p>Chidi & Nedum 2024</p>
-          </div>
         </div>
 
-        <div>
-          <img src="image/path/adventure3.jpg" alt="pic from the party">
-          <div>
-            <p><a href="#">Unity Park</a></p>
+        <div class="box">
+          <img src= "./assets/images/3.jpg" alt="pic from the party">
+            <a href="#">Unity Park</a>
             <p>April's bridal shower</p>
-          </div>
+        </div>
         </div>
       </section>
       <!-- End of Adventures Section -->
 
       <!-- Destination section - Fatahi -->
-      <section>
+      <section class="boxes2">
+        <div class="container">
         <h2>Popular Destinations</h2>
-        <div>
-          <img src="image/path/destination1.jpg" alt="Abuja">
-          <div>
-            <p>FCT</p>
+        <div class="box">
+          <img src="./assets/images/rakabtw_-M3YuHIpgmSY-unsplash.jpg" alt="Abuja">
             <p>Abuja</p>
-          </div>
         </div>
 
-        <div>
-          <img src="image/path/destination2.jpg" alt="Lagos">
-          <div>
-            <p>Victoria Island</p>
+        <div class="box">
+          <img src="./assets/images/rakabtw_-M3YuHIpgmSY-unsplash.jpg" alt="Lagos">
             <p>Lagos</p>
-          </div>
         </div>
 
-        <div>
-          <img src="image/path/destination3.jpg" alt="Rivers">
-          <div>
-            <p>Port Harcourt</p>
-            <p>Rivers</p>
-          </div>
+        <div class="box">
+          <img src="./assets/images/rakabtw_-M3YuHIpgmSY-unsplash.jpg" alt="Rivers" onclick="location.href='londonhotel.html'">
+          <p>Port Harcourt</p>
         </div>
+      </div>
       </section>
       <!-- End of Destination section -->
     </main>
 
     <!-- The Footer Section -->
     <footer>
-      <div>
-        <p>Follow Us</p>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">TikTok</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <p>Contact Us</p>
-        <ul>
-          <li>Phone: +234 800 0000 000</li>
-          <li>Email: noreply@gmail.com</li>
-        </ul>
-      </div>
-      <div>Copyright &copy; 2024, TripChoice.</div>
+        <div class="Copyright">Copyright &copy; 2024, TripChoice.</div>
     </footer>
     <!-- End of footer -->
 </body>
