@@ -50,17 +50,23 @@ header{
    border-bottom: #3f3f3f 1.5px solid;
 }
 
-header a{
+header #branding a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 13px;
+}
+
+header .navbar a{
+    color: black;
+    text-decoration: none;
     font-size: 14px;
 }
 
 header li{
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 30px 0 30px;
     margin-top: 10px;
 }
 
@@ -81,7 +87,7 @@ header #branding a{
 } */
 
 .navbar{
-    margin-left: 420px;
+    margin-left: 400px;
 }
 
 .navbar a{
@@ -94,9 +100,10 @@ header #branding a{
     position: absolute;
     color: black;
     background-color: #ffffff;
+    border-radius: 10px;
     width: 150px;
     height: 80px;
-    margin-top: 50px;
+    margin-top: 33px;
     margin-left: 100px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
@@ -111,13 +118,13 @@ header nav a:hover{
 }
 
 header .button1{
-    font-size: 15px;
+    font-size: 13px;
     float: right;
     background-color: black;
     color: rgb(255, 255, 255);
     margin-top: 5px;
     height: 35px;
-    padding: 0 30px 0 30px;
+    padding: 0 25px 0 25px;
     border-radius: 20px;
 }
 
@@ -336,7 +343,7 @@ header .button1{
     margin-right: 30px;
     color: black;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -392,51 +399,183 @@ header .button1{
 .dsection p{
     font-size: 20px;
 }
-  
-  .discovery_theme {
-            display: flex;
-            flex-direction: column;
-            margin: 0 auto;
-            text-align: center;
-            padding: 20px;
-  }
-  
-  .discovery_theme h2 {
-           margin-bottom: 15px;
-            font-size: 48px;
-  }
-  
-  .discovery_carousel {
+
+.carousel .dcheading,
+.carousel .dcheading2,
+.Lastcarousel .dcheading3{
+    text-align: left;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.dcheading h2,
+.dcheading2 h2,
+.dcheading3 h2{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.dcheading p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.carousel .dcarousel1{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel2{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel3{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel4{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel1:hover,
+.carousel .dcarousel2:hover,
+.carousel .dcarousel3:hover,
+.carousel .dcarousel4:hover{
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.275);
+    transition: background-color 0.9s ease, background-blend-mode 0.3s ease;
+}
+
+.carousel .dcarousel1 a,
+.carousel .dcarousel2 a,
+.carousel .dcarousel3 a,
+.carousel .dcarousel4 a{
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 180px;
+}
+
+.carousel .box,
+.carousel .box2,
+.Lastcarousel .box3{
+    float: left;
+    gap: 30px;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 10px;
-  }
-  
-  .discovery_carousel article {
-    max-width: 300px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 25px;
-    border: 1px solid;
-    padding: 15px;
-  }
-  
-  .discovery_carousel article span {
-            margin-right: 15px;
-  }
-  
-  .discovery_carousel article h3, .discovery_carousel article p, .discovery_carousel article a {
-            line-height: 1;
-            margin: 5px 0;
-  }
+}
+
+.carousel .box2 .dcarousel5 img,
+.carousel .box2 .dcarousel6 img,
+.carousel .box2 .dcarousel7 img,
+.carousel .box2 .dcarousel8 img{
+    height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+.box2 h3{
+    width: 280px;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.box2 p{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.Lastcarousel{
+    padding: 60px;
+    height: 400px;
+    background-color: #36fb0036;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.Lastcarousel .dcarousel9 h3,
+.Lastcarousel .dcarousel10 h3,
+.Lastcarousel .dcarousel11 h3,
+.Lastcarousel .dcarousel12 h3{
+    margin-left: 0;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 160px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.Lastcarousel a{
+    text-decoration: none;
+}
+
+.Lastcarousel .dcarousel9 p,
+.Lastcarousel .dcarousel10 p,
+.Lastcarousel .dcarousel11 p,
+.Lastcarousel .dcarousel12 p{
+    margin-left: 0;
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Lastcarousel .dcarousel9,
+.Lastcarousel .dcarousel10,
+.Lastcarousel .dcarousel11,
+.Lastcarousel .dcarousel12{
+    height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
 
 /* Footer */
  
 footer{
     padding: 40px;
-    margin-top: 30px;
+    margin-top: 0;
     color: #ffff;
     background-color: black;
     font-weight: bold;
