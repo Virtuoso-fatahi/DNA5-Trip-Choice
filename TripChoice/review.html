@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="/review.css">
 </head>
 <body>
    <!-- The Header -->
@@ -34,65 +35,432 @@
     </div>
   </header>
 
-    <!--End of Header-->
+  <!--End of Header-->
 
-    <!--Writeup section-->
-    <section>
+  <!--Search section-->
+  <section id="review-top">
+    <!--Review Heading-->
+    <div class="catchy-phrase">
       <h1>Craft a tale, shape an adventure!</h1>
       <p>Your story could be the compass guiding fellow travelers to unforgettable journeys. Share your travel experience and illuminate the path for fellow explorers!</p>
-    </section>
-    <!--End of writeup section-->
 
-    <!--Reviews-->
-    <section>
-      <!--Add reviews here-->
-      <div>
-        <img src="img/path/" alt="Latitude Lounge">
-        <div>
-          <strong><a href="">Latitude Cafe and Lounge</a></strong>
-          <p><i>Chukwu David</i></p>
-          <p>Great food and amazing coffee! We were just in town for the weekend but I think we went every day for breakfast its really that good!</p>
+      <!--Review Search Bar-->
+      <div class="form">
+          <form>
+            <input type="search" placeholder="Trip..." class="thing">
+            <input type="search" placeholder="Location...">
+            <input type="submit" value="Search">
+          </form>
         </div>
-      </div>
+        <!--End of Review search bar-->
+    </div>
+    <!--End of Review Heading-->
+  </section>
+  <!--End of search section-->
 
-      <div>
-        <img src="img/path/" alt="Love Garden">
-        <div>
-          <strong><a href="">Love Garden</a></strong>
-          <p><i>Valerie Didi</i></p>
-          <p>Stepping into Love Garden felt like walking into a fairy tale. The soft glow of candlelight, the gentle melody of a live pianist, and the aroma of exquisite cuisine set the stage for a truly magical evening. My partner and I were captivated by the romantic ambiance and impeccable service. Each dish was a masterpiece, carefully crafted to delight both the palate and the senses. As we savored each bite, we couldn't help but feel immersed in a world of romance. The highlight of the evening was undoubtedly the moment when my partner dropped to one knee and asked me to spend forever with them. The staff had discreetly coordinated everything, from the perfect timing to the celebratory champagne. It was a proposal straight out of a dream, made possible by the enchanting atmosphere of Love Garden. Highly recommended for anyone looking to create unforgettable memories.</p>
-        </div>
-      </div>
+  <!--Testimonial section-->
+  <section class="testimonial">
+    <h1>Recent Activity</h1>
 
-      <div>
-        <img src="img/path/" alt="The Elites">
-        <div>
-          <strong><a href="">The Elites</a></strong>
-          <p><i>Tony Spark</i></p>
-          <p>This hotel was perfect for our weekend trip with friends. Clean, welcoming, extremely flexible accommodating us with early check-in and late check-out. The room was very spacious, clean, and modern. The Location is great as well. Loved the art gallery/lobby concept.</p>
-        </div>
-      </div>
-
-      <!--Form section-->
-      <form action="" class="comment-box">
-        <div class="user">
-          <div class="image">
-            <img src="image/path/" alt="user's image">
+    <!--First row-->
+    <div class="testimonial-row1">
+      <!--Testimonial Box1-->
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_1.jpg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Chukwu David</strong>
+            <p class="testimonial-time">3 hours ago</p>
           </div>
-          <div class="name"><i>Share your experience</i></div>
         </div>
 
-        <!--Add text in comment box-->
-        <textarea name="comment"></textarea>
-        <button class="comment-section">Comment</button>
-      </form>
-      <!--End of form section-->
-    </section>
-    <!--End review section-->
+        <img src="/img/latitude2.webp" alt="Latitude Lounge" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">Latitude Cafe and Lounge</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>Great food and amazing coffee! We were just in town for the weekend but I think we went every day for breakfast its really that good!</p>                   
+          </div>
+        </div>
+      </div>
+      <!--End of Teastimonial Box1-->
+
+      <!--Testimonial Box3-->
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_2.jpeg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Valerie Didi</strong>
+            <p class="testimonial-time">4 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/love_garden_2.jpg" alt="Love Garden" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">Love Garden</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>Stepping into Love Garden felt like walking into a fairy tale. The soft glow of candlelight, the gentle melody of a live pianist, and the aroma of exquisite cuisine set the stage for a truly magical evening.</p>                 
+          </div>
+        </div>
+      </div>
+      <!--End of Testimonial Box2-->
+
+      <!--Testimonial Box3-->
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_3.jpeg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Tony Spark</strong>
+            <p class="testimonial-time">4 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/elites.jpeg" alt="The Elites" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">The Elites</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>This hotel was perfect for our weekend trip with friends. Clean, welcoming, extremely flexible accommodating us with early check-in and late check-out. The room was very spacious, clean, and modern.</p>                   
+          </div>
+        </div> 
+      </div>
+      <!--End of Testimonial Box3-->
+    </div>
+    <!--End of first row-->
+
+    <!--Second row-->
+    <div class="testimonial-row2">
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_2.jpeg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Chukwu David</strong>
+            <p class="testimonial-time">3 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/food_2.jpeg" alt="Nexos Lounge" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">Nexos Lounge</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>Great food and amazing coffee! We were just in town for the weekend but I think we went every day for breakfast its really that good!</p>                   
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_2.jpeg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Valerie Didi</strong>
+            <p class="testimonial-time">4 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/love_garden_2.jpg" alt="Love Garden" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">Love Garden</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>Stepping into Love Garden felt like walking into a fairy tale. The soft glow of candlelight, the gentle melody of a live pianist, and the aroma of exquisite cuisine set the stage for a truly magical evening.</p>                 
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_3.jpeg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Tony Spark</strong>
+            <p class="testimonial-time">4 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/elites.jpeg" alt="The Elites" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">The Elites</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>This hotel was perfect for our weekend trip with friends. Clean, welcoming, extremely flexible accommodating us with early check-in and late check-out. The room was very spacious, clean, and modern.</p>                   
+          </div>
+        </div> 
+      </div>
+    </div>
+    <!--End of second row-->
+
+    <!--Third row-->
+    <div class="testimonial-row3">
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_1.jpg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Chukwu David</strong>
+            <p class="testimonial-time">3 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/latitude2.webp" alt="Latitude Lounge" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">Latitude Cafe and Lounge</a></strong>
+          </div>
+
+        <div class="rate">
+          <input type="radio" id="star5" name="rate" value="5">
+          <label for="star5" title="text">5 stars</label>
+
+          <input type="radio" id="star4" name="rate" value="4">
+          <label for="star4" title="text">4 stars</label>
+
+          <input type="radio" id="star3" name="rate" value="3">
+          <label for="star3" title="text">3 stars</label>
+
+          <input type="radio" id="star2" name="rate" value="2">
+          <label for="star2" title="text">2 stars</label>
+
+          <input type="radio" id="star1" name="rate" value="1">
+          <label for="star1" title="text">1 star</label>
+        </div>
+
+        <div class="testimonial-comment">
+          <p>Great food and amazing coffee! We were just in town for the weekend but I think we went every day for breakfast its really that good!</p>                   
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-box">
+      <div class="testimonial-box1">
+          <img src="/img/profile_2.jpeg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Valerie Didi</strong>
+            <p class="testimonial-time">4 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/love_garden_2.jpg" alt="Love Garden" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">Love Garden</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>Stepping into Love Garden felt like walking into a fairy tale. The soft glow of candlelight, the gentle melody of a live pianist, and the aroma of exquisite cuisine set the stage for a truly magical evening.</p>                 
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-box">
+        <div class="testimonial-box1">
+          <img src="/img/profile_3.jpeg" alt="profile photo" class="testimonial-profile">
+          <div class="user-info">
+            <strong class="testimonial-username">Tony Spark</strong>
+            <p class="testimonial-time">4 hours ago</p>
+          </div>
+        </div>
+
+        <img src="/img/elites.jpeg" alt="The Elites" class="testimonial-img">
+
+        <div class="testimonial-box2">
+          <div class="biz-name">
+            <strong><a href="">The Elites</a></strong>
+          </div>
+
+          <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5" title="text">5 stars</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4" title="text">4 stars</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3" title="text">3 stars</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2" title="text">2 stars</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1" title="text">1 star</label>
+          </div>
+
+          <div class="testimonial-comment">
+            <p>This hotel was perfect for our weekend trip with friends. Clean, welcoming, extremely flexible accommodating us with early check-in and late check-out. The room was very spacious, clean, and modern.</p>                   
+          </div>
+        </div> 
+      </div>
+    </div>
+    <!--End of third row-->
+  </section>
+  <!--End of Testimonial section-->
+
+  <!--Write a Review section-->
+  <section class="review">
+    <!--<h2>Write a Review</h2>-->
+
+  </section>
+  <!--End of write a review section-->
+
+  <!--Form section-->
+  <section>
+    <form action="" class="comment-box">
+      <div class="user">
+        <div class="image">
+          <img src="image/path/" alt="user's image">
+        </div>
+        <div class="name"><i>Share your experience</i></div>
+      </div>
+
+      <!--Add text in comment box-->
+      <textarea name="comment"></textarea>
+      <button class="comment-section">Comment</button>
+    </form>
+  </section> 
+  <!--End of form section-->
+  <!--End review section-->
     
-    <!-- The Footer Section -->
-    <footer>
-      <div class="Copyright">Copyright &copy; 2024, TripChoice.</div>
+  <!-- The Footer Section -->
+  <footer>
+    <div class="Copyright">Copyright &copy; 2024, TripChoice.</div>
   </footer>
   <!-- End of footer -->
 </body>
