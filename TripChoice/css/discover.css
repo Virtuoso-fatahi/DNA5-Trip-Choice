@@ -1,0 +1,256 @@
+/* Discovery Section */
+
+.sub-nav{
+    padding: 20px;
+    text-align: center;
+    color: black;  
+}
+
+.sub-nav h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.sub-nav a{
+    margin-right: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sub-nav a:hover{
+    text-decoration: underline;
+}
+
+.sub-nav form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sub-nav input[type="search"]{
+    border-radius: 20px;
+    border-color: #d4d4d4;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 15px;
+    height: 50px;
+    padding: 20px;
+    width: 550px;
+}
+
+.sub-nav form .button2{
+    background-color: rgb(26, 211, 26);
+    border-radius: 30px;
+    height: 50px;
+    padding: 0 40px 0 40px;
+    color: #ffff;
+    border: 0;
+    font-size: 15px;
+}
+
+.dsection{
+    min-height: 470px;
+    max-width: 1200px;
+    margin-left: 160px;
+    background: url('../assets/images/1.jpg') no-repeat 0 -1000px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffff;
+    border-radius: 20px;
+}
+
+.dsection h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.dsection p{
+    font-size: 20px;
+}
+
+.carousel .dcheading,
+.carousel .dcheading2,
+.Lastcarousel .dcheading3{
+    text-align: left;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.dcheading h2,
+.dcheading2 h2,
+.dcheading3 h2{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.dcheading p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.carousel .dcarousel1{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel2{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel3{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel4{
+    min-height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.carousel .dcarousel1:hover,
+.carousel .dcarousel2:hover,
+.carousel .dcarousel3:hover,
+.carousel .dcarousel4:hover{
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.275);
+    transition: background-color 0.9s ease, background-blend-mode 0.3s ease;
+}
+
+.carousel .dcarousel1 a,
+.carousel .dcarousel2 a,
+.carousel .dcarousel3 a,
+.carousel .dcarousel4 a{
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 180px;
+}
+
+.carousel .box,
+.carousel .box2,
+.Lastcarousel .box3{
+    float: left;
+    gap: 30px;
+    padding: 0;
+    display: flex;
+}
+
+.carousel .box2 .dcarousel5 img,
+.carousel .box2 .dcarousel6 img,
+.carousel .box2 .dcarousel7 img,
+.carousel .box2 .dcarousel8 img{
+    height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+.box2 h3{
+    width: 280px;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.box2 p{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.Lastcarousel{
+    padding: 0;
+    padding-bottom: 60px;
+    height: 400px;
+    background-color: #36fb0036;
+    margin-left: 0;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.Lastcarousel .dcarousel9 h3,
+.Lastcarousel .dcarousel10 h3,
+.Lastcarousel .dcarousel11 h3,
+.Lastcarousel .dcarousel12 h3{
+    margin-left: 0;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.Lastcarousel a{
+    text-decoration: none;
+}
+
+.Lastcarousel .dcarousel9 p,
+.Lastcarousel .dcarousel10 p,
+.Lastcarousel .dcarousel11 p,
+.Lastcarousel .dcarousel12 p{
+    margin-left: 0;
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Lastcarousel .dcarousel9,
+.Lastcarousel .dcarousel10,
+.Lastcarousel .dcarousel11,
+.Lastcarousel .dcarousel12{
+    height: 250px;
+    width: 280px;
+    border-radius: 15px;
+    background: url('../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: #ffff;
+}
+
+.Lastcarousel .dcarousel9:hover,
+.Lastcarousel .dcarousel10:hover,
+.Lastcarousel .dcarousel11:hover,
+.Lastcarousel .dcarousel12:hover{
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.275);
+    transition: background-color 0.9s ease, background-blend-mode 0.3s ease;
+}
+
