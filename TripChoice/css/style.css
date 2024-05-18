@@ -50,17 +50,23 @@ header{
    border-bottom: #3f3f3f 1.5px solid;
 }
 
-header a{
+header #branding a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 13px;
+}
+
+header .navbar a{
+    color: black;
+    text-decoration: none;
     font-size: 14px;
 }
 
 header li{
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 30px 0 30px;
     margin-top: 10px;
 }
 
@@ -81,7 +87,7 @@ header #branding a{
 } */
 
 .navbar{
-    margin-left: 420px;
+    margin-left: 400px;
 }
 
 .navbar a{
@@ -94,9 +100,10 @@ header #branding a{
     position: absolute;
     color: black;
     background-color: #ffffff;
+    border-radius: 10px;
     width: 150px;
     height: 80px;
-    margin-top: 50px;
+    margin-top: 33px;
     margin-left: 100px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
@@ -111,13 +118,13 @@ header nav a:hover{
 }
 
 header .button1{
-    font-size: 15px;
+    font-size: 13px;
     float: right;
     background-color: black;
     color: rgb(255, 255, 255);
     margin-top: 5px;
     height: 35px;
-    padding: 0 30px 0 30px;
+    padding: 0 25px 0 25px;
     border-radius: 20px;
 }
 
@@ -318,125 +325,16 @@ header .button1{
     text-align: center;
 }
 
-/* Discovery Section */
 
-.sub-nav{
-    padding: 20px;
-    text-align: center;
-    color: black;  
-}
 
-.sub-nav h1{
-    font-weight: bold;
-    font-size: 60px;
-    margin-bottom: 25px;
-}
+/* Review */
 
-.sub-nav a{
-    margin-right: 30px;
-    color: black;
-    font-weight: 500;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.sub-nav a:hover{
-    text-decoration: underline;
-}
-
-.sub-nav form{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.sub-nav input[type="search"]{
-    border-radius: 20px;
-    border-color: #d4d4d4;
-    border-width: 1px;
-    border-style: solid;
-    font-size: 15px;
-    height: 50px;
-    padding: 20px;
-    width: 550px;
-}
-
-.sub-nav form .button2{
-    background-color: rgb(26, 211, 26);
-    border-radius: 30px;
-    height: 50px;
-    padding: 0 40px 0 40px;
-    color: #ffff;
-    border: 0;
-    font-size: 15px;
-}
-
-.dsection{
-    min-height: 470px;
-    max-width: 1200px;
-    margin-left: 160px;
-    background: url('../assets/images/1.jpg') no-repeat 0 -1000px;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    color: #ffff;
-    border-radius: 20px;
-}
-
-.dsection h2{
-    font-weight: bold;
-    font-size: 35px;
-    margin-top: 150px;
-    margin-bottom: 10px;
-}
-
-.dsection p{
-    font-size: 20px;
-}
-  
-  .discovery_theme {
-            display: flex;
-            flex-direction: column;
-            margin: 0 auto;
-            text-align: center;
-            padding: 20px;
-  }
-  
-  .discovery_theme h2 {
-           margin-bottom: 15px;
-            font-size: 48px;
-  }
-  
-  .discovery_carousel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 10px;
-  }
-  
-  .discovery_carousel article {
-    max-width: 300px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 25px;
-    border: 1px solid;
-    padding: 15px;
-  }
-  
-  .discovery_carousel article span {
-            margin-right: 15px;
-  }
-  
-  .discovery_carousel article h3, .discovery_carousel article p, .discovery_carousel article a {
-            line-height: 1;
-            margin: 5px 0;
-  }
 
 /* Footer */
  
 footer{
     padding: 40px;
-    margin-top: 30px;
+    margin-top: 0;
     color: #ffff;
     background-color: black;
     font-weight: bold;
