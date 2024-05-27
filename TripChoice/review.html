@@ -433,29 +433,57 @@
   </section>
   <!--End of Testimonial section-->
 
-  <!--Write a Review section-->
-  <section class="review">
-    <!--<h2>Write a Review</h2>-->
-
-  </section>
-  <!--End of write a review section-->
-
-  <!--Form section-->
-  <section>
-    <form action="" class="comment-box">
-      <div class="user">
-        <div class="image">
-          <img src="image/path/" alt="user's image">
-        </div>
-        <div class="name"><i>Share your experience</i></div>
+  <!--Review section-->
+  <section class="comment-section">
+    <h2>Share your experience</h2>
+    <div class="review-section">
+      <div class="write">
+        <!--Form section-->
+        <form id="comment-form">
+          <label for="name">Review Title</label>
+          <input type="text" id="name" name="name" placeholder="Eg: Great Sevices" required>
+    
+          <label for="rating">How would you rate your experience?</label>
+          <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5" class="star-icon">&#9733;</label>
+    
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4" class="star-icon">&#9733;</label>
+    
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3" class="star-icon">&#9733;</label>
+    
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2" class="star-icon">&#9733;</label>
+    
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1" class="star-icon">&#9733;</label>
+          </div>
+    
+          <label for="comment">Write your review</label>
+          <textarea id="comment" name="comment" required></textarea>
+    
+          <label for="file">Add some photos (optional)</label>
+          <input type="file" id="file" name="file">
+    
+          <button type="submit">Submit review</button>
+        </form>
+        <!--End of form section-->
       </div>
-
-      <!--Add text in comment box-->
-      <textarea name="comment"></textarea>
-      <button class="comment-section">Comment</button>
-    </form>
-  </section> 
-  <!--End of form section-->
+      
+      <!--Add-a-place section-->
+      <div class="add-a-place">
+        <img src="/img/restaurant_4.jpg" alt="restaurant" class="add-photo">
+        <strong>Would you like to add a place?</strong><br>
+        <span>Tell us about it so we can improve what we show.</span>
+        <div class="add-a-place-b">
+          <p><a href="#"></a>Add a place</p>
+        </div>
+      </div>
+      <!--End of Add-a-place section-->
+    </div>
+  </section>
   <!--End review section-->
     
   <!-- The Footer Section -->
