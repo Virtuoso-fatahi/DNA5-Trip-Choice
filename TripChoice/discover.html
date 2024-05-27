@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discover</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/discover.css">
-</head>
-<body>
-     <!-- The Header -->
-     <header>
-      <!-- Logo -->
-      <div class="container">
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/discover.css" />
+  </head>
+  <body>
+    <!-- The Header -->
+    <header>
+      <div class="container discover-container">
         <div id="branding">
           <a href="index.html" class="logo">TripChoice</a>
         </div>
@@ -20,15 +19,15 @@
         <nav class="navbar">
           <ul>
             <li><a href="discover.html">Discover</a></li>
-             <div class="dropdown">
-              <li><a href="#" class="dropbtn">Trips</a></li>
-              <div class="dropdown-content">
-                  <li><a href="restaurants.html">Restaurants</a></li>
-                  <li><a href="hotels.html">Hotels</a></li>
-              </div>
-            </div>
-              <li><a href="review.html">Review</a></li>
-              <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Trips</a>
+              <ul class="dropdown-content">
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+              </ul>
+            </li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
         </nav>
         <button onclick="location.href='signin.html'" class="button1">Sign In</button>
@@ -37,122 +36,130 @@
 
     <!-- The Main Section -->
     <main>
-          <div class="sub-nav" class="container">
-            <h1>Where to?</h1>
-            <a href="">Search All</a><a href="">Restaurants</a><a href="">Hotels</a>
-            <form>
-              <input type="search" placeholder="Enter location...">
-              <button type="submit" class="button2">Search</button>
-          </form>
-          </div>
+      <div class="sub-nav">
+        <h1>Where to?</h1>
+        <nav class="sub-nav-main">
+          <a href="#">Search All</a>
+          <a href="#">Restaurants</a>
+          <a href="#">Hotels</a>
+        </nav>
+        <form>
+          <input type="search" placeholder="Enter location..." />
+          <button type="submit" class="button2">Search</button>
+        </form>
+      </div>
 
+      <!-- Dsection Section -->
       <section class="dsection">
         <div class="container">
-        <h2>Discover Nigeria's Hidden Gems</h2>
-        <p>Welcome to TripChoice Discover! Explore the vibrant cities of Nigeria and uncover hidden gems waiting to be discovered. Whether you're seeking cozy hostels or delightful dining spots, we've curated the best recommendations for you.</p>
+          <h2>Discover Nigeria's Hidden Gems</h2>
+          <p>Welcome to TripChoice Discover! Explore the vibrant cities of Nigeria and uncover hidden gems waiting to be discovered. Whether you're seeking cozy hostels or delightful dining spots, we've curated the best recommendations for you.</p>
         </div>
       </section>
 
+      <!-- First Carousel Section -->
       <section class="carousel">
-      <div class="container">
-      <div class="dcheading">
-        <h2>Hot Spots at Victoria Island</h2>
-        <p>2024 Travelers Choice Awards Best of the Best Hotels</p>
-      </div>  
-      <div class="box">
-        <div class="dcarousel1">
-          <a href="#">Surf House Lagos</a>
-        </div>    
-        <div class="dcarousel2">
-         <a href="#">Nkoyo Restaurant</a>
-        </div>
-        <div class="dcarousel3">
-          <a href="#">Nkoyo Restaurant</a>
-        </div>
-        <div class="dcarousel4">
-          <a href="#">Nkoyo Restaurant</a>
-        </div>
-      </div>
-      </div>
-      </section>
-
-      <section class="carousel">
-      <div class="container">
-      <div class="dcheading2">
-        <h2>Hot Spots at Victoria Island</h2>
-      </div>  
-      <div class="box2">
-        <div class="dcarousel5">
-          <a href="#">
-              <img src="./assets/images/3.jpg" alt="pic from the party">
-              <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
-              <p>from $135 per adult</p>
-          </a>
-      </div>
-        <div class="dcarousel6">
-          <a href="#">
-            <img src="./assets/images/3.jpg" alt="pic from the party">
-              <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
-              <p>from $135 per adult</p>
-          </a>
-         </div>
-        <div class="dcarousel7">
-          <a href="#">
-            <img src="./assets/images/3.jpg" alt="pic from the party">
-              <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
-              <p>from $135 per adult</p>
-          </a>
-        </div>
-        <div class="dcarousel8">
-          <a href="#">
-            <img src="./assets/images/3.jpg" alt="pic from the party">
-              <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
-              <p>from $135 per adult</p>
-          </a>
-        </div>
-      </div>
-      </div>
-      </section>
-
-      <section class="Lastcarousel">
         <div class="container">
-        <div class="dcheading3">
-          <h2>Top destinations for your next vacation</h2>
-        </div>  
-        <div class="box3">
-          <div class="dcarousel9">
-            <a href="#">
-              <h3>The Shelter Hostel</h3>
-              <p>Location: <span>Ikeja</span></p>
-            </a>
-          </div>    
-          <div class="dcarousel10">
-            <a href="#">
-              <h3>Yellow Chilli</h3>
-              <p>Location: <span>Ikeja</span></p>
-            </a>
+          <div class="dcheading">
+            <h2>Hot Spots at Victoria Island</h2>
+            <p>2024 Travelers Choice Awards Best of the Best Hotels</p>
           </div>
-          <div class="dcarousel11">
-            <a href="#">
-              <h3>Millennium Park Hostel</h3>
-              <p>Location: <span>Ikeja</span></p>
-            </a>
-          </div>
-          <div class="dcarousel12">
-            <a href="#">
-              <h3>BluCabana Restaurant..</h3>
-              <p>Location: <span>Ikeja</span></p>
-            </a>
+          <div class="box">
+            <div class="box-card box-card-img">
+              <a href="#">Surf House Lagos</a>
+            </div>
+            <div class="box-card box-card-img">
+              <a href="#">Nkoyo Restaurant</a>
+            </div>
+            <div class="box-card box-card-img">
+              <a href="#">Nkoyo Restaurant</a>
+            </div>
+            <div class="box-card box-card-img">
+              <a href="#">Nkoyo Restaurant</a>
+            </div>
           </div>
         </div>
+      </section>
+
+      <!-- Second Carousel Section -->
+      <section class="carousel">
+        <div class="container">
+          <div class="dcheading-2">
+            <h2>Hot Spots at Victoria Island</h2>
+          </div>
+          <div class="box-2">
+            <div class="box-card-2 discover-carousel-self-box">
+              <a href="#">
+                <img src="./assets/images/3.jpg" alt="Grand Circle Island and Haleiwa 9 Hour Tour" />
+                <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
+                <p>from $135 per adult</p>
+              </a>
+            </div>
+            <div class="box-card-2 discover-carousel-self-box">
+              <a href="#">
+                <img src="./assets/images/3.jpg" alt="Grand Circle Island and Haleiwa 9 Hour Tour" />
+                <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
+                <p>from $135 per adult</p>
+              </a>
+            </div>
+            <div class="box-card-2 discover-carousel-self-box">
+              <a href="#">
+                <img src="./assets/images/3.jpg" alt="Grand Circle Island and Haleiwa 9 Hour Tour" />
+                <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
+                <p>from $135 per adult</p>
+              </a>
+            </div>
+            <div class="box-card-2 discover-carousel-self-box">
+              <a href="#">
+                <img src="./assets/images/3.jpg" alt="Grand Circle Island and Haleiwa 9 Hour Tour" />
+                <h3>Grand Circle Island and Haleiwa 9 Hour Tour</h3>
+                <p>from $135 per adult</p>
+              </a>
+            </div>
+          </div>
         </div>
-        </section>
-          
-        </main>
+      </section>
+
+      <!-- Third Carousel Section -->
+      <section class="carousel last-carousel">
+        <div class="container">
+          <div class="dcheading-3">
+            <h2>Top destinations for your next vacation</h2>
+          </div>
+          <div class="box-3">
+            <div class="box-card-3 box-card-img">
+              <a href="#">
+                <h3>The Shelter Hostel</h3>
+                <p>Location: <span>Ikeja</span></p>
+              </a>
+            </div>
+            <div class="box-card-3 box-card-img">
+              <a href="#">
+                <h3>Yellow Chilli</h3>
+                <p>Location: <span>Ikeja</span></p>
+              </a>
+            </div>
+            <div class="box-card-3 box-card-img">
+              <a href="#">
+                <h3>Millennium Park Hostel</h3>
+                <p>Location: <span>Ikeja</span></p>
+              </a>
+            </div>
+            <div class="box-card-3 box-card-img">
+              <a href="#">
+                <h3>BluCabana Restaurant</h3>
+                <p>Location: <span>Ikeja</span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- The Footer Section -->
     <footer>
-      <div class="Copyright">Copyright &copy; 2024, TripChoice.</div>
-  </footer>
-  <!-- End of footer -->
-</body>
+      <div class="container">
+        <p>Copyright &copy; 2024, TripChoice.</p>
+      </div>
+    </footer>
+  </body>
 </html>
