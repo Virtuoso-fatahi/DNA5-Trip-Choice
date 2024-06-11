@@ -7,7 +7,7 @@ body {
 }
 
 #review-top {
-    background-image: url('/TripChoice/img/pexels-pixabay-260922.jpg');
+    background-image: url('/TripChoice/assets/images/pexels-pixabay-260922.jpg');
     min-height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,6 +32,7 @@ body {
     font-size: 22px;
 }
 
+/* The search bar */
 .form {
     margin-top: 60px;
 }
@@ -39,7 +40,7 @@ body {
 input {
     position: relative;
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     box-sizing: border-box;
     transition: .5s;
 }
@@ -76,7 +77,9 @@ input[type="submit"] {
     background: rgb(26, 211, 26);
     color: #ffff;
 }
+/* End of search bar*/
 
+/* The Testimonial section */
 .testimonial .comment-section h1 {
     font-size: 30px;
     text-align: center;
@@ -163,6 +166,7 @@ input[type="submit"] {
     margin-top: 50px;
     flex-wrap: wrap;
 }
+/* End of Testimonial section */
 
 /* Rating (star styling) */
 .rate {
@@ -334,6 +338,10 @@ input[type="file"] {
     font-size: 14px;
 }
 
+#comment-form input[placeholder] {
+    font-size: 14px;
+}
+
 /* Add-a-place section */
 .add-a-place {
     width: 28%;
@@ -345,33 +353,32 @@ input[type="file"] {
     height: 400px;
 }
 
-.add-a-place-b a {
+/* Add-a-place button */
+button[type="button"] a {
     text-decoration: none;
     color: black;
 }
 
-.add-a-place-b {
-    border: 1.5px solid black;
-    width: 80%;
-    height: 40px;
+button[type="button"] {
     text-align: center;
     border-radius: 25px;
-    margin-top: 20px;
-    margin-left: 30px;
     cursor: pointer;
+    width: 80%;
+    margin: 20px;
+    border: 2px solid black;
+    background: white;
 }
 
-.add-a-place-b:hover {
+button[type="button"]:hover {
     background-color: green;
-    color: beige;
 }
 
-.add-a-place-b a:hover {
-    color: beige;
+button[type="button"] a:hover {
+    color: white;
 }
 
-#comment-form input[placeholder] {
-    font-size: 14px;
+button[type="button"] a {
+    font-weight: bold;
 }
 
 
