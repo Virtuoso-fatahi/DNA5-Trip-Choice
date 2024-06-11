@@ -1,0 +1,202 @@
+body {
+    font: 15px/1.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#review-top {
+    background-image: url('/img/pexels-pixabay-260922.jpg');
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffff;
+}
+
+.catchy-phrase {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 800px;
+    transform: translate(-50%,-50%);
+}
+
+.catchy-phrase h1 {
+    font-size: 40px;
+}
+
+.catchy-phrase p {
+    font-size: 22px;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="search"] {
+    background: #ffff;
+    width: 250px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    
+}
+
+input[placeholder="Trip..."] {
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid gray;
+}
+
+input[placeholder="Location..."] {
+    left: -5px;
+    border-left: 1px solid gray;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -10px;
+    border-radius: 0 5px 5px 0;
+    width: 75px;
+    height: 45px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(26, 211, 26);
+    color: #ffff;
+}
+
+.testimonial h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testimonial-profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.testimonial-box1 {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+    gap: 8px;
+}
+
+.testimonial-time {
+    margin-top: -2px;
+    font-size: 12px;
+}
+
+.testimonial-username {
+    font-size: 14px;
+}
+
+.user-info {
+    margin-top: 5px;
+}
+
+.testimonial-box {
+    width: 360px;
+    border: .2px solid grey;
+    border-radius: 5px;
+}
+
+.testimonial-img {
+    width: 100%;
+    height: 30vh;
+    margin-top: 7px;
+}
+
+.testimonial-row1 {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.testimonial-box2 {
+    padding: 15px 15px 0 15px;
+
+}
+
+.testimonial-comment {
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+
+.biz-name a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.testimonial-row2 {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.testimonial-row3 {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* Rating (star styling) */
+.rate {
+    float: left;
+    height: 30px;
+    margin-top: -10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: rgb(26, 211, 26);    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: rgb(26, 211, 26);  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: rgb(26, 211, 26);
+}

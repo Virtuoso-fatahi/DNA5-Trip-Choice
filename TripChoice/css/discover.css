@@ -1,340 +1,242 @@
-/* General Style */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font: 15px/1.5;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-}
-
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Discovery Section */
-
-/* || Header Section */
-.discover-container {
-    display: flex;
-    flex-wrap: wrap; /* Will be removed later after completing the hamburger menu */
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* || Copied styled from the main stylesheet */
-header{
-    background: #ffff;
-    color: black; 
-    padding: 25px 0;
-    min-height: 70px;
-    border-bottom: #3f3f3f 1.5px solid;
- }
- 
- header #branding a{
-     color: black;
-     text-decoration: none;
-     text-transform: uppercase;
-     font-weight: bolder;
-     font-size: 20px;
-     color: rgb(0, 0, 0);
- }
- 
- header .navbar a{
-     color: black;
-     text-decoration: none;
-     font-size: 14px;
- }
- 
- header .navbar ul li{
-     display: inline-flex;
-     flex-direction: row;
-     margin-right: 40px;
- }
- 
- .navbar a{
-     font-weight: 500;
-     font-size: 14px;
- }
- 
- .navbar ul .dropdown-content {
-     display: none;
-     position: absolute;
-     color: black;
-     background-color: #ffffff;
-     border-radius: 10px;
-     width: 150px;
-     height: 80px;
-     margin-top: 33px;
-     margin-left: 100px;
-     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
- }
-   
- .navbar ul .dropdown:hover .dropdown-content {
-     display: block;
-   }
- 
- header nav a:hover{
-     color: rgb(26, 211, 26);
-     font-weight: bold;
- }
- 
- header .button1{
-     font-size: 13px;
-     background-color: black;
-     color: rgb(255, 255, 255);
-     height: 35px;
-     width: 100px;
-     padding: 0 25px;
-     border-radius: 20px;
- }
-
 /* || Main Section - sub-nav */
 .sub-nav {
-    padding: 20px;
-    text-align: center;
-    color: black;
-    margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  margin: 0 auto;
 }
 
 .sub-nav h1 {
-    font-weight: bold;
-    font-size: 60px;
-    margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .sub-nav .sub-nav-main {
-    gap: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .sub-nav .sub-nav-main a {
-    color: black;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .sub-nav nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .sub-nav form {
-    margin: 30px 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .sub-nav input[type="search"] {
-    border-radius: 20px;
-    border: 1px solid #d4d4d4;
-    font-size: 15px;
-    height: 50px;
-    padding: 20px;
-    width: 550px;
+  border-radius: 20px;
+  border: 1px solid #d4d4d4;
+  font-size: 15px;
+  height: 50px;
+  padding: 20px;
+  width: 550px;
 }
 
 .sub-nav .button2 {
-    background-color: rgb(26, 211, 26);
-    border-radius: 30px;
-    height: 50px;
-    padding: 0 40px;
-    color: #fff;
-    border: none;
-    font-size: 15px;
+  background-color: rgb(26, 211, 26);
+  border-radius: 30px;
+  height: 50px;
+  padding: 0 40px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
 }
 
 /* || Main Section - dsection */
 
 .dsection {
-    min-height: 470px;
-    max-width: 1200px;
-    margin: 0 auto;
-    background: url('../assets/images/1.jpg') no-repeat center;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    color: #fff;
-    border-radius: 20px;
+  min-height: 470px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: url("../assets/images/1.jpg") no-repeat center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
 }
 
 .dsection h2 {
-    font-weight: bold;
-    font-size: 35px;
-    margin: 150px 0 10px;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 150px 0 10px;
 }
 
 .dsection p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* || Main Section - first carousel */
 
 .carousel .dcheading {
-    text-align: left;
-    color: #000;
-    margin: 80px 0 25px;
+  text-align: left;
+  color: #000;
+  margin: 80px 0 25px;
 }
 
 .dcheading h2 {
-    font-size: 28px;
-    margin-bottom: 0;
+  font-size: 28px;
+  margin-bottom: 0;
 }
 
 .dcheading p {
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
 }
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
 .box-card {
-    height: 250px;
-    width: 250px;
-    border-radius: 15px;
-    text-align: left;
-    color: #fff;
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  text-align: left;
+  color: #fff;
 }
 
 .box-card-img {
-    background-size: cover;
-    background: url('../assets/images/1.jpg') no-repeat center center;
+  background-size: cover;
+  background: url("../assets/images/1.jpg") no-repeat center center;
 }
 
 .box-card a {
-    margin-left: 10px;
-    color: #fff;
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    padding-top: 180px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 180px;
 }
 
 .box-card:hover {
-    background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.275);
-    transition: background-color 0.9s ease, background-blend-mode 0.3s ease;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.275);
+  transition: background-color 0.9s ease, background-blend-mode 0.3s ease;
 }
 
 /* || Main Section - second carousel */
 
 .carousel .dcheading-2 {
-    text-align: left;
-    color: #000;
-    margin: 80px 0 25px;
+  text-align: left;
+  color: #000;
+  margin: 80px 0 25px;
 }
 
 .dcheading-2 h2 {
-    font-size: 28px;
-    margin-bottom: 0;
+  font-size: 28px;
+  margin-bottom: 0;
 }
 
 .carousel .box-2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
 .carousel .box-2 .box-card-2 {
-    width: 250px;
+  width: 250px;
 }
 
 .carousel .box-2 .box-card-2 h3 {
-    font-size: 16px;
-    margin-bottom: 0;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
 .carousel .box-2 .box-card-2 p {
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
 }
 
 .box-card-2 img {
-    height: 250px;
-    width: 250px; 
-    border-radius: 15px;
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
 }
 
 /* || Main Section - third carousel */
 
 .carousel .dcheading-3 {
-    text-align: left;
-    color: #000;
-    margin: 40px 0 25px;
+  text-align: left;
+  color: #000;
+  margin: 40px 0 25px;
 }
 
 .dcheading-3 h2 {
-    font-size: 28px;
-    margin-bottom: 0;
+  font-size: 28px;
+  margin-bottom: 0;
 }
 
 .carousel .box-3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
 .carousel .box-3 .box-card-3 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
 }
 
 .carousel .box-3 .box-card-3 a {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 .carousel .box-3 .box-card-3 a h3 {
-    font-size: 20px;
-    margin: 50% auto 0;
+  font-size: 20px;
+  margin: 50% auto 0;
 }
 
 .carousel .box-3 .box-card-3 a p {
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
 }
 
 .last-carousel {
-    padding-bottom: 5%;
-    min-height: 200px;
-    background-color: #36fb0036;
-    margin-top: 80px;
+  padding-bottom: 5%;
+  min-height: 200px;
+  background-color: #36fb0036;
+  margin-top: 80px;
 }
 
 /* || Footer Section */
-footer{
-    padding: 40px;
-    position: static;
-    bottom: 0;
-    width: 100%;
-    color: #ffff;
-    background-color: black;
-    font-weight: bold;
-    text-align: center;
+footer {
+  padding: 40px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  color: #ffff;
+  background-color: black;
+  font-weight: bold;
+  text-align: center;
 }

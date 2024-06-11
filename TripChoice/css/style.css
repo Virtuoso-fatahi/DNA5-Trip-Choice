@@ -1,344 +1,341 @@
 /* style.css */
 
 body {
-    font: 15px/1.5;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
+  font: 15px/1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
 }
 
 /* Global */
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-img{
-    max-width: 650px;
-    height: 500px;
+img {
+  max-width: 650px;
+  height: 500px;
 }
 
-.dark{
-    padding: 20px;
-    background-color: black;
-    color: #ffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.dark {
+  padding: 20px;
+  background-color: black;
+  color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.title{
-    font-weight: bold;
-    font-size: 38px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+.title {
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 /*header*/
-header{
-   background: #ffff;
-   color: black; 
-   padding-top: 30px;
-   min-height: 70px;
-   border-bottom: #3f3f3f 1.5px solid;
+header {
+  background: #ffff;
+  color: black;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #3f3f3f 1.5px solid;
 }
 
-header #branding a{
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 13px;
+header #branding a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
 }
 
-header .navbar a{
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
+header .navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-header li{
-    float: left;
-    display: inline;
-    padding: 0 30px 0 30px;
-    margin-top: 10px;
+header li {
+  float: left;
+  display: inline;
+  padding: 0 30px 0 30px;
+  margin-top: 10px;
 }
 
-header #branding{
-    float: left;
-    margin-top: 7.5px;
+header #branding {
+  float: left;
+  margin-top: 7.5px;
 }
 
-header #branding a{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-    color: rgb(0, 0, 0);
+header #branding a {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(0, 0, 0);
 }
 
 /* header nav{
     margin-left: 350px;
 } */
 
-.navbar{
-    margin-left: 400px;
+.navbar {
+  margin-left: 400px;
 }
 
-.navbar a{
-    font-weight: 500;
-    font-size: 14px;
+.navbar a {
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .navbar ul .dropdown-content {
-    display: none;
-    position: absolute;
-    color: black;
-    background-color: #ffffff;
-    border-radius: 10px;
-    width: 150px;
-    height: 80px;
-    margin-top: 33px;
-    margin-left: 100px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 150px;
+  height: 80px;
+  margin-top: 33px;
+  margin-left: 100px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-  
+
 .navbar ul .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-header nav a:hover{
-    color: rgb(26, 211, 26);
-    font-weight: bold;
+  display: block;
 }
 
-header .button1{
-    font-size: 13px;
-    float: right;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    margin-top: 5px;
-    height: 35px;
-    padding: 0 25px 0 25px;
-    border-radius: 20px;
+header nav a:hover {
+  color: rgb(26, 211, 26);
+  font-weight: bold;
+}
+
+header .button1 {
+  font-size: 13px;
+  float: right;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  margin-top: 5px;
+  height: 35px;
+  padding: 0 25px 0 25px;
+  border-radius: 20px;
 }
 
 /* Showcase */
 
-#showcase{
-    min-height: 600px;
-    background: url('../assets/images/1.jpg') no-repeat 0 -1000px;
-    text-align: center;
-    color: #ffff;
+#showcase {
+  min-height: 600px;
+  background: url("../assets/images/1.jpg") no-repeat 0 -1000px;
+  text-align: center;
+  color: #ffff;
 }
 
-#showcase h1{
-    margin-top: 150px;
-    font-size: 60px;
-    margin-bottom: 10px;
+#showcase h1 {
+  margin-top: 150px;
+  font-size: 60px;
+  margin-bottom: 10px;
 }
 
-#showcase p{
-    font-size: 20px;
-    margin-bottom: 70px;
+#showcase p {
+  font-size: 20px;
+  margin-bottom: 70px;
 }
 
-#showcase input[type="search"]{
-    border-radius: 20px;
-    font-size: 15px;
-    height: 50px;
-    padding: 20px;
-    width: 550px;
-    border-style: none;
+#showcase input[type="search"] {
+  border-radius: 20px;
+  font-size: 15px;
+  height: 50px;
+  padding: 20px;
+  width: 550px;
+  border-style: none;
 }
 
-#showcase form .button2{
-    background-color: rgb(26, 211, 26);
-    border-radius: 30px;
-    height: 50px;
-    padding: 0 40px 0 40px;
-    color: #ffff;
-    border: 0;
-    font-size: 15px;
+#showcase form .button2 {
+  background-color: rgb(26, 211, 26);
+  border-radius: 30px;
+  height: 50px;
+  padding: 0 40px 0 40px;
+  color: #ffff;
+  border: 0;
+  font-size: 15px;
 }
 
 /* Section */
 
-.section{
-    margin-top: 80px;
+.section {
+  margin-top: 80px;
 }
 
-.section img{
-    max-width: 650px;
-    height: 500px;
-    float: left;
-    margin-right: 50px;
+.section img {
+  max-width: 650px;
+  height: 500px;
+  float: left;
+  margin-right: 50px;
 }
 
-.section h2 p button{
-    float: right;
+.section h2 p button {
+  float: right;
 }
 
-.section h2{
-    color: rgb(26, 211, 26);
-    font-size: 40px;
-    margin-top: 130px;
-    text-align: right;
-    margin-bottom: 0;
+.section h2 {
+  color: rgb(26, 211, 26);
+  font-size: 40px;
+  margin-top: 130px;
+  text-align: right;
+  margin-bottom: 0;
 }
 
-.section p{
-    font-size: 20px;
-    text-align: right;
+.section p {
+  font-size: 20px;
+  text-align: right;
 }
 
-.section button{
-    float: right;
-    background-color: rgb(26, 211, 26);
-    color: #ffff;
-    font-size: 15px;
-    border: 0;
-    border-radius: 30px;
-    height: 50px;
-    padding: 0 30px 0 30px;
+.section button {
+  float: right;
+  background-color: rgb(26, 211, 26);
+  color: #ffff;
+  font-size: 15px;
+  border: 0;
+  border-radius: 30px;
+  height: 50px;
+  padding: 0 30px 0 30px;
 }
 
 /* Boxes1 */
 
-.boxes1{
-    margin-top: 80px;
+.boxes1 {
+  margin-top: 80px;
 }
 
-.boxes1 h2{
-    font-size: 38px;
-    text-align: center;
-    margin-bottom: 0;
+.boxes1 h2 {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
-.boxes1 p{
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 50px;
+.boxes1 p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.boxes1 .box{
-    float: left;
-    text-align: center;
-    width: 31%;
-    padding: 10px;
+.boxes1 .box {
+  float: left;
+  text-align: center;
+  width: 31%;
+  padding: 10px;
 }
 
-.boxes1 .box img{
-    width: 370px;
-    height: 300px;
-    margin-bottom: 20px;
-    object-fit: cover;
+.boxes1 .box img {
+  width: 370px;
+  height: 300px;
+  margin-bottom: 20px;
+  object-fit: cover;
 }
 
-.boxes1 .box a{
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
+.boxes1 .box a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.boxes1 .box a:hover{
-    color: rgb(26, 211, 26);
-    font-weight: bolder;
+.boxes1 .box a:hover {
+  color: rgb(26, 211, 26);
+  font-weight: bolder;
 }
 
-.boxes1 .box h4{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.boxes1 .box h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.boxes1 .box p{
-    font-size: 18px;
-    margin-top: 10px;
+.boxes1 .box p {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
-.boxes1 .box .team-member{
-    width: 370px;
-    height: 300px;
-    margin-bottom: 10px;
-    object-fit: cover;
+.boxes1 .box .team-member {
+  width: 370px;
+  height: 300px;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 /* Boxes2 */
 
-.boxes2{
-    margin-top: 50px;
+.boxes2 {
+  margin-top: 50px;
 }
 
-.boxes2 h2{
-    font-size: 38px;
-    text-align: center;
+.boxes2 h2 {
+  font-size: 38px;
+  text-align: center;
 }
 
-.boxes2 .box{
-    float: left; 
-    text-align: center;
-    width: 31%;
-    padding: 10px;
+.boxes2 .box {
+  float: left;
+  text-align: center;
+  width: 31%;
+  padding: 10px;
 }
 
-.boxes2 .box img{
-    width: 370px;
-    height: 300px;
-    margin-bottom: 2px;
-    object-fit: cover;
+.boxes2 .box img {
+  width: 370px;
+  height: 300px;
+  margin-bottom: 2px;
+  object-fit: cover;
 }
 
-.boxes2 .box p{
-    font-size: 25px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
+.boxes2 .box p {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 /* About Page Showcase */
 
-.showcase{
-    min-height: 600px;
-    background: url('../assets/images/1.jpg') no-repeat 0 -1000px;
-    text-align: center;
-    color: #ffff;
+.showcase {
+  min-height: 600px;
+  background: url("../assets/images/1.jpg") no-repeat 0 -1000px;
+  text-align: center;
+  color: #ffff;
 }
 
-.showcase h1{
-    margin-top: 190px;
-    font-size: 60px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+.showcase h1 {
+  margin-top: 190px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 /* Main */
 
-#main p{
-    font-size: 20px;
-    text-align: center;
+#main p {
+  font-size: 20px;
+  text-align: center;
 }
-
-
 
 /* Review */
 
-
 /* Footer */
- 
-footer{
-    padding: 40px;
-    margin-top: 0;
-    color: #ffff;
-    background-color: black;
-    font-weight: bold;
-    text-align: center;
+
+footer {
+  padding: 40px;
+  margin-top: 0;
+  color: #ffff;
+  background-color: black;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Medi Queries
@@ -357,4 +354,3 @@ footer{
         padding-bottom: 20px;
     } 
 }*/
-
